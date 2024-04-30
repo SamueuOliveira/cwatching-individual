@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class OEECalculator {
     private Double disponibilidade;
     private Double desempenho;
-    private Double qualidade;
+    private Double satisfacao;
 
     public void calcularOEE() {
         Scanner scanner = new Scanner(System.in);
@@ -12,7 +12,7 @@ public class OEECalculator {
         // Solicita ao usuário para inserir os valores em porcentagem
         this.disponibilidade = lerPorcentagemValida(scanner, "disponibilidade");
         this.desempenho = lerPorcentagemValida(scanner, "desempenho");
-        this.qualidade = lerPorcentagemValida(scanner, "qualidade");
+        this.satisfacao = lerPorcentagemValida(scanner, "Satisfação");
     }
 
     private double lerPorcentagemValida(Scanner scanner, String nomeMetrica) {
@@ -45,16 +45,16 @@ public class OEECalculator {
 
     public void exibirResultadoOEE() {
         // Calcula a média da OEE
-        double oee = (this.disponibilidade + this.desempenho + this.qualidade) / 3.0;
+        double oee = (this.disponibilidade + this.desempenho + this.satisfacao) / 3.0;
 
         // Identifica qual dos três fatores (disponibilidade, desempenho ou qualidade) é o menor
         String pontoAtencao;
-        if (this.disponibilidade <= this.desempenho && this.disponibilidade <= this.qualidade) {
+        if (this.disponibilidade <= this.desempenho && this.disponibilidade <= this.satisfacao) {
             pontoAtencao = "Disponibilidade";
-        } else if (this.desempenho <= this.disponibilidade && this.desempenho <= this.qualidade) {
+        } else if (this.desempenho <= this.disponibilidade && this.desempenho <= this.satisfacao) {
             pontoAtencao = "Desempenho";
         } else {
-            pontoAtencao = "Qualidade";
+            pontoAtencao = "Satisfação";
         }
 
         // Cria uma representação em formato de string do resultado do OEE
