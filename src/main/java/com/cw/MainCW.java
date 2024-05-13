@@ -20,11 +20,6 @@ public class MainCW {
         MaquinaDAO maquinaDAO = new MaquinaDAO();
         SessaoDAO sessaoDAO = new SessaoDAO();
         ParametroAlertaDAO parametroAlertaDAO = new ParametroAlertaDAO();
-        OEECalculator calculator = new OEECalculator();
-        calculator.calcularOEE();
-        calculator.exibirDadosPessoais();
-        calculator.exibirResultadoOEE();
-
 
 
 

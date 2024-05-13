@@ -11,6 +11,9 @@
   <component name="ChangeListManager">
     <list default="true" id="724465b6-f04b-4087-8885-ea8306413a9d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cw/MainCW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cw/MainCW.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cw/conexao/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cw/conexao/Conexao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cw/services/OEECalculator.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +50,7 @@
     "Application.CriarTabelas.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MainCW.executor": "Run",
+    "Application.MainIndividual.executor": "Run",
     "Application.OEECalculator.executor": "Run",
     "Application.PopularTabelas.executor": "Run",
     "Application.TestesMain.executor": "Run",
@@ -65,9 +69,16 @@
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MainCW">
-    <configuration name="AtualizarRegistro" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cw.services.AtualizarRegistro" />
+  <component name="RunManager" selected="Application.MainIndividual">
+    <configuration name="MainCW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cw.MainCW" />
+      <module name="cwatching" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainIndividual" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cw.services.MainIndividual" />
       <module name="cwatching" />
       <extension name="coverage">
         <pattern>
@@ -75,13 +86,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MainCW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.cw.MainCW" />
-      <module name="cwatching" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -121,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainIndividual" />
         <item itemvalue="Application.MainCW" />
         <item itemvalue="Application.OEECalculator" />
         <item itemvalue="Application.TestesMain" />
         <item itemvalue="Application.VerificarRede" />
-        <item itemvalue="Application.AtualizarRegistro" />
       </list>
     </recent_temporary>
   </component>
