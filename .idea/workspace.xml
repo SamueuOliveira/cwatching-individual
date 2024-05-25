@@ -9,11 +9,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="724465b6-f04b-4087-8885-ea8306413a9d" name="Changes" comment="">
+    <list default="true" id="724465b6-f04b-4087-8885-ea8306413a9d" name="Changes" comment="integrando o banco de dados no projeto">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cw/MainCW.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cw/MainCW.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cw/conexao/Conexao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cw/conexao/Conexao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cw/services/OEECalculator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cw/services/Apontamento.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cw/services/MainIndividual.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cw/services/MainIndividual.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cw/services/Tarefa.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cw/services/Tempo_ociosidade.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$cumentacao.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,31 +47,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.AtualizarRegistro.executor": "Run",
-    "Application.CriarTabelas.executor": "Run",
-    "Application.Main.executor": "Run",
-    "Application.MainCW.executor": "Run",
-    "Application.MainIndividual.executor": "Run",
-    "Application.OEECalculator.executor": "Run",
-    "Application.PopularTabelas.executor": "Run",
-    "Application.TestesMain.executor": "Run",
-    "Application.VerificarRede.executor": "Run",
-    "Maven.cwatching [clean].executor": "Run",
-    "Maven.cwatching [install].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/samue/Desktop/centerWatch/cwatching-individual",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.AtualizarRegistro.executor&quot;: &quot;Run&quot;,
+    &quot;Application.CriarTabelas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainCW.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainIndividual.executor&quot;: &quot;Run&quot;,
+    &quot;Application.OEECalculator.executor&quot;: &quot;Run&quot;,
+    &quot;Application.PopularTabelas.executor&quot;: &quot;Run&quot;,
+    &quot;Application.TestesMain.executor&quot;: &quot;Run&quot;,
+    &quot;Application.VerificarRede.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cwatching [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.cwatching [install].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/samue/Desktop/centerWatch/cwatching-individual&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.MainIndividual">
     <configuration name="MainCW" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.cw.MainCW" />
@@ -142,6 +145,23 @@
       <option name="presentableId" value="Default" />
       <updated>1713366438549</updated>
     </task>
+    <task id="LOCAL-00001" summary="integrando o banco de dados no projeto">
+      <option name="closed" value="true" />
+      <created>1715562470601</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1715562470601</updated>
+    </task>
+    <task id="LOCAL-00002" summary="integrando o banco de dados no projeto">
+      <option name="closed" value="true" />
+      <created>1715562490430</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715562490430</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -184,5 +204,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="integrando o banco de dados no projeto" />
+    <option name="LAST_COMMIT_MESSAGE" value="integrando o banco de dados no projeto" />
   </component>
 </project>
